@@ -1,0 +1,235 @@
+
+
+
+h1 {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  padding: 10px;
+}
+
+.contenedor-left , .contenedor-right {
+   display: flex;
+   box-shadow: 2px 2px 10px 3px rgba(90, 90, 90, 0.2);
+   flex-direction: column;
+   padding: 40px;
+   border-radius: 8px;
+   margin-left: 50px;
+}
+
+.contenedor-left {
+  height: 678px;
+  background-image: url(../src/assets/left.png);
+  background-repeat: no-repeat;
+  background-position-x: -48px;
+  background-position-y: -90px;
+}
+
+.contenedor-right {
+  background-image: url(../src/assets/tareas2.png);
+  background-position-x: -383px;
+  background-position-y: -160px;
+  background-repeat: no-repeat;
+}
+
+h1 , h3 {
+  color: #383838;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+h3 {
+    margin-bottom: 50px;
+    text-align: center;
+    background: none;
+}
+
+form {
+  background: none;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+  background: none;
+  font-weight: 700;
+}
+
+.btn {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.citas {
+  background: #FFF;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+p , span {
+  background: #FFF;
+}
+
+p {
+  font-weight: 800;
+}
+
+span {
+  font-weight: 400;
+}
+
+footer {
+  background: #383838;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+footer h4 {
+    color: #FFF;
+    background-color: #383838;
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;
+}
+
+footer a {
+    color: #FFF;
+    background-color: #383838;
+    text-decoration: none;
+    color: #a12b1b;
+    font-style: italic;
+    text-align: center;
+}
+
+footer a:hover {
+   color: #eba197;
+}
+
+.contenedor-logos {
+  display: flex;
+  width: 100%;
+  background: #383838;
+  align-items: center;
+  justify-content: center;
+}
+
+.logos-redes {
+  background-color: #383838;
+  width: 50%;
+  padding-top: 26px;
+  
+}
+
+.logos-redes:hover {
+  transform: scale(0.8);
+  
+}
+
+.banner{
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  background-image: url(../src/assets/img.jpg);
+  background-position-x: -110px;
+  background-position-y: -100px;
+}
+
+
+
+
+
+
+
+@media (max-width: 413.98px) {
+   .contenedor-right {
+    margin-left: 0;
+    background-position-x: -469px;
+  }
+
+  .contenedor-left {
+    margin-bottom: 25px;
+    margin-left: 0;
+  }
+
+  .logos-redes {
+    width: 30%;
+  }
+
+  footer {
+    height: 160px;
+  }
+}
+
+@media (min-width: 414px) and (max-width: 575.98px) {  
+  .contenedor-right {
+    margin-left: 0;
+    background-position-x: -445px;
+  }
+
+  .contenedor-left {
+    margin-bottom: 25px;
+    margin-left: 0;
+  }
+
+  .logos-redes {
+    width: 30%;
+  }
+
+  footer {
+    height: 160px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .contenedor-right {
+    margin-left: 0;
+    background-position-x: -386px;
+    width: 100%;
+  }
+
+  .contenedor-left {
+    margin-bottom: 25px;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .logos-redes {
+    width: 30%;
+  }
+
+  footer {
+    height: 160px;
+  }
+}
+ 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+@media (min-width: 1200px) { 
+
+}
+
+
+
+
+
+
+
